@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638051447724558121
-    m_Hash: 766427405
+      ticks: 638051506411353171
+    m_Hash: 1650708056
   m_LockFileStatus:
     m_FilePath: C:/Users/fauve/Documents/GitHub/Cauchemar-en-cuisine/Cauchema_en_Cusine/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638051448133317983
-    m_Hash: 480106862
+      ticks: 638051506411363171
+    m_Hash: 618607993
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

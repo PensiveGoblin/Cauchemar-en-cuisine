@@ -374,9 +374,9 @@
 -r:"C:/Users/fauve/Documents/GitHub/Cauchemar-en-cuisine/Cauchema_en_Cusine/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Mirror/Transports/KCP/kcp2k/where-allocation/Scripts/AssemblyInfo.cs"
-"Assets/Mirror/Transports/KCP/kcp2k/where-allocation/Scripts/Extensions.cs"
-"Assets/Mirror/Transports/KCP/kcp2k/where-allocation/Scripts/IPEndPointNonAlloc.cs"
+"Assets/Mirror/Plugins/Transports/KCP/kcp2k/where-allocation/Scripts/AssemblyInfo.cs"
+"Assets/Mirror/Plugins/Transports/KCP/kcp2k/where-allocation/Scripts/Extensions.cs"
+"Assets/Mirror/Plugins/Transports/KCP/kcp2k/where-allocation/Scripts/IPEndPointNonAlloc.cs"
 -langversion:9.0
 
 /deterministic

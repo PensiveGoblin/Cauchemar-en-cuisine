@@ -15,7 +15,7 @@ C:/Users/fauve/Documents/GitHub/Cauchemar-en-cuisine/Cauchema_en_Cusine
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57370
+56012
 Successfully changed project path to: C:/Users/fauve/Documents/GitHub/Cauchemar-en-cuisine/Cauchema_en_Cusine
 C:/Users/fauve/Documents/GitHub/Cauchemar-en-cuisine/Cauchema_en_Cusine
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/fauve/Documents/GitHub/Cauchemar-en-cuisine/Cauchema_en_Cusine
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 67.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,37 +63,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006310 seconds.
+Registered in 0.006330 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 64.94 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 72.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.549 seconds
+- Completed reload, in  0.567 seconds
 Domain Reload Profiling:
-	ReloadAssembly (549ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (567ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (389ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (397ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (87ms)
+			SetupTypeCache (88ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (231ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (241ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
+				RefreshPlugins (72ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadAttributes (119ms)
 				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -101,49 +101,121 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007285 seconds.
+Registered in 0.007665 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000002173B4653F0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021736C612D0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173AF82830 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021736CE1270 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021736CE1270 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173A830230 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173C19D020 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173C19D020 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B060AC0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B060AC0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B060AC0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173C1DC440 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173C1DC440 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173C035010 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173C1E12A0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173AB04B00 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173C1E12A0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173AB17710 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173AB17710 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173C072220 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173BF03830 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173AB3E2A0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173BF03830 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173BF03830 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B075CD0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173BF07E40 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173BF07E40 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B075CD0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173BF18110 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173BF18110 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173C32A020 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173ABFDF90 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173AC067C0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B4A4020 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B4D91E0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.961 seconds
+- Completed reload, in  0.958 seconds
 Domain Reload Profiling:
-	ReloadAssembly (962ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (958ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (745ms)
-			LoadAssemblies (74ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
+			SetupTypeCache (242ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (333ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (324ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (206ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3698 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (56.1 KB). Loaded Objects now: 4152.
-Memory consumption went from 127.2 MB to 127.2 MB.
-Total: 3.113600 ms (FindLiveObjects: 0.389800 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.535100 ms  DeleteObjects: 0.092700 ms)
+Memory consumption went from 127.3 MB to 127.2 MB.
+Total: 4.323500 ms (FindLiveObjects: 0.552500 ms CreateObjectMapping: 0.269500 ms MarkObjects: 3.399400 ms  DeleteObjects: 0.100600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -155,49 +227,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1452697.541747 seconds.
+  path: Assets/Mirror/Examples/Pong/Scenes
+  artifactKey: Guid(00c56c45628954f44aa4d944cbd9bfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Pong/Scenes using Guid(00c56c45628954f44aa4d944cbd9bfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc7ced6d1afb236577cf8efe3ef1565') in 0.018317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Mirror/Examples/Pong
+  artifactKey: Guid(2220cb06641bd40be8c8330b3b4dd0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Pong using Guid(2220cb06641bd40be8c8330b3b4dd0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2890ac2671777b39d4ff5aa5f58722') in 0.007103 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005953 seconds.
+Registered in 0.009498 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000021740D7CB90 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173DAE4030 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173AC067C0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173ACCD030 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173ACCD030 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173A969010 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B351010 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217404A0030 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217402E4020 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173ACD73B0 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173C6F1010 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B4C4C30 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021740F83800 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217400A4030 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217402EC030 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217400A4030 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217402EC030 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217402EC030 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021741E26010 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000217400E1240 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173F4FE030 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021740417230 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021740880B00 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021740417230 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B4C4C30 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173F4F6620 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173F4F6620 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B4C4C30 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173F4F6620 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B4C4C30 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173B44B020 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021741E36020 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173F536850 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173DC5AD10 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002173C5A7360 doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\fauve\Documents\GitHub\Cauchemar-en-cuisine\Cauchema_en_Cusine\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.027 seconds
+- Completed reload, in  1.655 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1027ms)
-		BeginReloadAssembly (144ms)
+	ReloadAssembly (1655ms)
+		BeginReloadAssembly (241ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (1167ms)
+			LoadAssemblies (146ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
+			SetupTypeCache (465ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (325ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (433ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (199ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3691 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (24.6 KB). Loaded Objects now: 4155.
+Unloading 23 unused Assets / (24.7 KB). Loaded Objects now: 4155.
 Memory consumption went from 127.0 MB to 127.0 MB.
-Total: 2.902800 ms (FindLiveObjects: 0.357100 ms CreateObjectMapping: 0.084100 ms MarkObjects: 2.431900 ms  DeleteObjects: 0.028500 ms)
+Total: 4.357800 ms (FindLiveObjects: 0.520600 ms CreateObjectMapping: 0.109500 ms MarkObjects: 3.675800 ms  DeleteObjects: 0.050000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -209,24 +365,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1448100.549801 seconds.
-  path: Assets/Mirror/Examples/Pong/Prefabs/Racket.prefab
-  artifactKey: Guid(b1651eaf8c7564a1c86031dfbb8a7b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirror/Examples/Pong/Prefabs/Racket.prefab using Guid(b1651eaf8c7564a1c86031dfbb8a7b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8caa65aca3d4b9a0f4c651df3476b05a') in 0.105830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 214.525758 seconds.
-  path: Assets/Mirror/Examples/Pong/Sprites/DottedLine.png
-  artifactKey: Guid(1b5c0b514d8b2d24091d5aec516fe860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirror/Examples/Pong/Sprites/DottedLine.png using Guid(1b5c0b514d8b2d24091d5aec516fe860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1786d0fd2c151d4329df3a02df0f2e') in 0.060790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Mirror/Examples/Pong/Sprites/WallVertical.png
-  artifactKey: Guid(0f2833a292a197d4fb0385a8efa1dc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mirror/Examples/Pong/Sprites/WallVertical.png using Guid(0f2833a292a197d4fb0385a8efa1dc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9822338633326d667969b069cb7664') in 0.015558 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

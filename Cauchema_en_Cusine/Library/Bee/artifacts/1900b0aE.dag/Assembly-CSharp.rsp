@@ -402,10 +402,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/where-allocations.ref.dll"
-"Assets/Mirror/Transports/KCP/MirrorTransport/KcpTransport.cs"
-"Assets/Mirror/Transports/Latency/LatencySimulation.cs"
-"Assets/Mirror/Transports/Telepathy/TelepathyTransport.cs"
+"Assets/Mirror/Plugins/Transports/KCP/MirrorTransport/KcpTransport.cs"
+"Assets/Mirror/Plugins/Transports/Latency/LatencySimulation.cs"
+"Assets/Mirror/Plugins/Transports/Telepathy/TelepathyTransport.cs"
 "Assets/Ressources/ParrelSync/Examples/CustomArgumentExample.cs"
+"Assets/Scripts/Controller.cs"
+"Assets/Scripts/NetworkManagerPong.cs"
 -langversion:9.0
 
 /deterministic
