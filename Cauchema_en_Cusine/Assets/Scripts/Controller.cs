@@ -5,7 +5,6 @@ namespace Mirror
 {
     public class Controller : NetworkBehaviour
     {
-        public float speed = 30;
         
         public override void OnStartLocalPlayer()
         {
