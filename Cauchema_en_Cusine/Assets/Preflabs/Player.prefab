@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7225515337667305513}
   - component: {fileID: 8816447625832422333}
+  - component: {fileID: 9097996703936698356}
   - component: {fileID: 2593954615303533828}
   - component: {fileID: 2292541019707279061}
-  - component: {fileID: 2052763963915075117}
   - component: {fileID: 6443911684458905241}
   - component: {fileID: 8583606611533860946}
   - component: {fileID: 5091025138465306176}
@@ -46,6 +46,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023600957028024784}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &9097996703936698356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023600957028024784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 767bd116de3232741973b4a1eb12156d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncDirection: 0
+  syncMode: 0
+  syncInterval: 0.1
+  category: soldier
+  speed: 30
+  health: 10
 --- !u!23 &2593954615303533828
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -104,22 +122,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2052763963915075117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2023600957028024784}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33adbd2a2f3b44d4f8efae32d271224d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncDirection: 0
-  syncMode: 0
-  syncInterval: 0.1
-  speed: 1000
 --- !u!114 &6443911684458905241
 MonoBehaviour:
   m_ObjectHideFlags: 0
