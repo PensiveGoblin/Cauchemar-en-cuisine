@@ -62,8 +62,6 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   category: soldier
-  speed: 30
-  health: 10
 --- !u!23 &2593954615303533828
 MeshRenderer:
   m_ObjectHideFlags: 0
