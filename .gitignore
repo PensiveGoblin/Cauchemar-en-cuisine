@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-Cauchema_en_Cusine/[Ll]ibrary/
-Cauchema_en_Cusine/[Tt]emp/
-Cauchema_en_Cusine/[Oo]bj/
-Cauchema_en_Cusine/[Bb]uild/
-Cauchema_en_Cusine/[Bb]uilds/
-Cauchema_en_Cusine/[Ll]ogs/
-Cauchema_en_Cusine/[Mm]emoryCaptures/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !Cauchema_en_Cusine/[Aa]ssets/**/*.meta
