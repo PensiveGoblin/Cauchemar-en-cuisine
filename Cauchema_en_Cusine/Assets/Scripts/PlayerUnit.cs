@@ -10,11 +10,12 @@ namespace Mirror
         //Category
         public string category;
         //Default value
-        static public int speed = 5;
+        public int speed = 5;
         static public int health = 10;
         static public int speedRotation = 2;
-        static public float acceleration = 0.001f;
-        static public float deceleration = 0.05f;
+        public float acceleration = 0.1f;
+        public float deceleration = 1f;
+        public float velocity = 0.0f;
 
         
         // Start is called before the first frame update
@@ -31,7 +32,7 @@ namespace Mirror
                 speed = 5;
                 health = 100;
                 speedRotation = 2; 
-                acceleration=0.001f;
+                acceleration=0.1f;
             }
             anim=GetComponent<Animator>();
 
@@ -48,7 +49,7 @@ namespace Mirror
                 
             }
             //if(BehaviorPlayer.velocity>0.5){
-            Debug.Log("Velocity: "+BehaviorPlayer.velocity);
+            Debug.Log("Velocity: "+velocity);
             //}
             
         }

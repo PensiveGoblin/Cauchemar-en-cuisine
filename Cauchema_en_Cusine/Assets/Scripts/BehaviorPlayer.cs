@@ -5,34 +5,38 @@ using Mirror;
 
 public class BehaviorPlayer    
 {
-    public static float velocity=0.0f;
+    //public static float velocity=0.0f;
     public static void Motion(PlayerUnit unit)
     {
         
         {
-            velocity=0.0f;
+            //velocity=0.0f;
             if (Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.LeftShift))  
             {
-                while (velocity < Time.deltaTime * PlayerUnit.speed)
+                if (unit.velocity < Time.deltaTime * unit.speed)
                 {
-                    velocity+=PlayerUnit.acceleration;
+                    unit.velocity+=Time.deltaTime *unit.acceleration;
+                }
+                else if (unit.velocity > Time.deltaTime * unit.speed)
+                {
+                    unit.velocity-=Time.deltaTime *unit.deceleration;
                 }
                 //velocity = Vector3.forward * Time.deltaTime * PlayerUnit.speed;  
-                unit.transform.Translate(Vector3.forward * velocity);  
+                unit.transform.Translate(Vector3.forward * unit.velocity);  
             
             }  
             else if (Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.LeftShift))
             {
-                while (velocity < Time.deltaTime * PlayerUnit.speed*2)
+                if (unit.velocity < Time.deltaTime * unit.speed*2)
                 {
-                    velocity+=PlayerUnit.acceleration;
+                    unit.velocity+=Time.deltaTime *unit.acceleration;
                 }
                 //velocity = Vector3.forward * Time.deltaTime * PlayerUnit.speed;  
-                unit.transform.Translate(Vector3.forward * velocity);  
+                unit.transform.Translate(Vector3.forward * unit.velocity);  
             }
             else{
-                while (velocity > 0){
-                    velocity-=PlayerUnit.deceleration;
+                while (unit.velocity > 0){
+                    unit.velocity-=unit.velocity*unit.deceleration;
                 }
             }
                 
@@ -57,11 +61,13 @@ public class BehaviorPlayer
     public static void Animate(PlayerUnit unit){
         int VelocityHash;
         Animator anim;
+        NetworkAnimator netAnim;
         anim=unit.GetComponent<Animator>();
+        netAnim=unit.GetComponent<NetworkAnimator>();
 
         VelocityHash=Animator.StringToHash("velocity");
 
-        anim.SetFloat(VelocityHash,velocity);
+        anim.SetFloat(VelocityHash,unit.velocity);
 
     }
 }
